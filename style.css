@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #161616;
+    color: wheat;
+    overflow: hidden;
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.container-heading{
+    font-size: 40px;
+    font-family: 'Monument';
+    font-weight: lighter;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.counter-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    
+}
+.counter{
+    font-size: 200px;
+    font-weight: lighter;
+    font-family: 'Kenoky';
+
+}
+.counter-p{
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: lighter;
+    font-family: 'Neutral Face';
+    
+}
